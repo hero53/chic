@@ -1,4 +1,4 @@
-@extends('layouts.public.base')
+@extends('layouts.public.base',['title'=>'Acceuil - Poulet chicc'])
 
 @section('content')
     @include('layouts.public._indexnav')
@@ -93,17 +93,13 @@
                         </div>
                     </div>
                 </div>
-                        <p>
-                            <a href="#" class=" a template-btn m-5 text-md-center"><strong>passer votre commande</strong></a> 
-                        </p>
-                        
-                
-                {{-- <div class="col-12 col-md-4 offset-0 offset-md-4">
-                    <a href="#" class="template-btn m-5 text-center display-1"><strong>passer votre commande</strong></a>
-                </div> --}}
-                
+ 
+            </div>
+            <div class="table-btn text-center">
+                <a href="#" class=" a template-btn m-5 text-md-center"><strong>passer votre commande</strong></a> 
             </div>
         </div>
+       
     </section>
     <!-- Food Area End -->
 
@@ -134,9 +130,9 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-4">
-                    <div class="single-food">
+                    <div class="single-food card-team">
                         <div class="food-img">
-                            <img src="{{asset('images/page/responnsable_kouassi.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{asset('images/page/responnsable_kouassi.jpg')}}" class="img-fluid card-img" alt="">
                         </div>
                         <div class="food-content">
                             
@@ -146,9 +142,9 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="single-food my-5 my-md-0">
+                    <div class="single-food my-5 my-md-0 card-team">
                         <div class="food-img">
-                            <img src=" {{asset('images/page/responsable_constant.jpg')}}" class="img-fluid" alt="">
+                            <img src=" {{asset('images/page/responsable_constant.jpg')}}" class="img-fluid card-img" alt="">
                         </div>
                         <div class="food-content">
                             
@@ -158,14 +154,15 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="single-food">
+                    <div class="single-food card-team">
                         <div class="food-img">
-                            <img src=" {{asset('/images/update3.jpg')}}" class="img-fluid" alt="">
+                            <img src=" {{asset('/images/page/responsable_kouadio.jpg')}}" class="img-fluid card-img" alt="">
                         </div>
                         <div class="food-content">
                             
-                            <h5 class="text-center">autre</h5>
-                            <p class="text-center">Lorem ipsum </p>                        </div>
+                            <h5 class="text-center">N'dri Sams Eric</h5>
+                            <p class="text-center">Lorem ipsum </p>
+                         </div>
                     </div>
                 </div>
             </div>

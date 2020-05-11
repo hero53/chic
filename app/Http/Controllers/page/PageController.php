@@ -11,4 +11,8 @@ class PageController extends Controller
     public function index(){
         return view('public.index');
     }
+
+    public function commande(){
+        return view('public.commande');
+    }
 }

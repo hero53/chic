@@ -2,9 +2,28 @@
 .logo-border{
   border-radius: 50%;
 }
+.lien{
+  color: black;
+  font-size: 40%;
+}
+.lien :hover{
+  color: #ffb606;
+}
 .bande{
   background-color: black;
 }
 .mini{
   text-transform: lowercase;
+}
+.update-area .single-food:hover .food-content{
+  background-color: #ffb606;
+}
+.card-img{
+  max-width: 1010px;
+  max-height: 520px;
+}
+
+.form label{
+  color: white;
+  font-weight: bold;
 }

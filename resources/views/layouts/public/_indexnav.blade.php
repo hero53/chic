@@ -4,7 +4,7 @@
       <div class="row">
           <div class="col-lg-2">
               <div class="logo-area">
-                  <a href="index.html"><img class="logo-border" src="{{asset('/images/page/poulet_chic_image_logo.png')}}" alt="logo"></a>
+                  <a href="{{route('public.index')}}"><img class="logo-border" src="{{asset('/images/page/poulet_chic_image_logo.png')}}" alt="logo"></a>
               </div>
           </div>
           <div class="col-lg-10">
@@ -15,9 +15,9 @@
               </div>  
               <div class="main-menu">
                   <ul>
-                      <li class="active"><a href="index.html">Accueil</a></li>
-                      <li><a href="about.html">Passer votre commande</a></li>
-                      <li><a href="contact-us.html">Contact</a></li>
+                      <li class="active lien"><a href="{{route('public.index')}}">Accueil</a></li>
+                      <li class="lien"><a href="{{route('public.commande')}}">Passer votre commande</a></li>
+                      <li class="lien"><a href="contact-us.html">Contact</a></li>
                   </ul>
               </div>
           </div>
