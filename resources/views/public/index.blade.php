@@ -1,4 +1,4 @@
-@extends('layouts.public.base',['title'=>'Acceuil - Poulet chicc'])
+@extends('layouts.public.base',['title'=>'Acceuil - Poulet chic'])
 
 @section('content')
     @include('layouts.public._indexnav')
@@ -12,6 +12,9 @@
                     <h1>Bienvenue à la ferme</span><br>  
                     <span class="style-change">de <span class="prime-color">Poulet chic</h1>
                 </div>
+            </div>
+            <div class="table-btn text-center">
+                <a href="#" class=" a template-btn m-5 text-md-center">passer votre commande</a> 
             </div>
         </div>
     </section>
@@ -96,7 +99,7 @@
  
             </div>
             <div class="table-btn text-center">
-                <a href="#" class=" a template-btn m-5 text-md-center"><strong>passer votre commande</strong></a> 
+                <a href="#" class=" a template-btn m-5 text-md-center">passer votre commande</a> 
             </div>
         </div>
        

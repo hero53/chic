@@ -15,4 +15,8 @@ class PageController extends Controller
     public function commande(){
         return view('public.commande');
     }
+
+    public function contact(){
+        return view('public.contact');
+    }
 }

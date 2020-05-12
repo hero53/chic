@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::get('/index','page\PageController@index')->name('public.index');
 Route::get('/commande','page\PageController@commande')->name('public.commande');
+Route::get('/contact','page\PageController@contact')->name('public.contact');
