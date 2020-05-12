@@ -4,7 +4,7 @@
   @include('layouts.public.__indexnav')
 
    <!-- Banner Area Starts -->
-   <section class="banner-area banner-area2 contact-bg text-center">
+   <section class="banner-area banner-area2 text-center commande-bg">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -46,7 +46,7 @@
       </div>
       <div class="row">
           <div class="col-lg-8 offset-lg-2">
-            <form class="form">
+            <form class="form form-choix">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Votre nom</label>
                   <input type="text" class="form-control">
@@ -55,12 +55,23 @@
                   <label for="exampleInputPassword1">Votre contact</label>
                   <input type="text" class="form-control" >
                 </div>
-                <select class="form-control">
-                    <option>Default select</option>
-                  </select>
-
-                  <div class="table-btn text-center">
-                    <button type="submit" class="template-btn template-btn2 mt-4">book a table</button>
+                <div>
+                    <label for="">Choix de commande : </label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="choix" id="inlineRadio1" value="Poulet en gros">
+                        <label class="form-check-label" for="inlineRadio1">Poulet en gros</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="choix" id="inlineRadio2" value="Poulet de chair">
+                        <label class="form-check-label" for="inlineRadio2">Poulet de chair</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="choix" id="inlineRadio2" value="Lapin" style=" width: 1em;">
+                        <label class="form-check-label" for="inlineRadio2"> Lapin</label>
+                    </div>
+                </div>
+                <div class="table-btn text-center">
+                    <button type="submit" class="template-btn template-btn2 mt-4">passez votre commande</button>
                 </div>
                 
               </form>

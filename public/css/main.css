@@ -34,3 +34,15 @@ main-menu ul li a{
  .block{
    display: inline-block;
  }
+ .form-choix label{
+font-size: 20px;
+ }
+
+video{
+  position:inherit;
+  background-size: cover;
+}
+
+ .commande-bg{
+  background-image:url("../images/page/c8339bec-3a77-43d7-96f3-cb7b24625ca5.jpg");
+ }

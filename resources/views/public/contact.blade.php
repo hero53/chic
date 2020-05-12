@@ -3,7 +3,8 @@
 @section('content')
   @include('layouts.public.__indexnav')
 
-  <section class="banner-area banner-area2 contact-bg text-center">
+  <section class="banner-area banner-area2 contact-bg text-center section">
+      
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -12,6 +13,7 @@
             </div>
         </div>
     </div>
+    
 </section>
 <div class="section-padding3">
 
