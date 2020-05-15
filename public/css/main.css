@@ -1,48 +1,63 @@
+/* .logo-border {
+    border-radius: 50%;
+} */
 
-.logo-border{
-  border-radius: 50%;
+.lien {
+    color: black;
+    font-size: 40%;
 }
-.lien{
-  color: black;
-  font-size: 40%;
+.lien :hover {
+    color: #ffb606;
 }
-.lien :hover{
-  color: #ffb606;
+.bande {
+    background-color: black;
 }
-.bande{
-  background-color: black;
+.mini {
+    text-transform: lowercase;
 }
-.mini{
-  text-transform: lowercase;
+.update-area .single-food:hover .food-content {
+    background-color: #ffb606;
 }
-.update-area .single-food:hover .food-content{
-  background-color: #ffb606;
-}
-.card-img{
-  max-width: 1010px;
-  max-height: 520px;
-}
-
-.form label{
-  color: white;
-  font-weight: bold;
+.card-img {
+    max-width: 1010px;
+    max-height: 520px;
 }
 
-main-menu ul li a{
-  line-height: 90px;;
-}
- .block{
-   display: inline-block;
- }
- .form-choix label{
-font-size: 20px;
- }
-
-video{
-  position:inherit;
-  background-size: cover;
+.form label {
+    color: white;
+    font-weight: bold;
 }
 
- .commande-bg{
-  background-image:url("../images/page/c8339bec-3a77-43d7-96f3-cb7b24625ca5.jpg");
- }
+main-menu ul li a {
+    line-height: 90px;
+}
+.block {
+    display: inline-block;
+}
+.form-choix label {
+    font-size: 20px;
+}
+
+video {
+    position: inherit;
+    background-size: cover;
+}
+
+.commande-bg {
+    background-image: url("../images/page/c8339bec-3a77-43d7-96f3-cb7b24625ca5.jpg");
+}
+.banner-area,
+.reservation-area,
+.table-area {
+    background-attachment: fixed;
+}
+
+.genric-btn.primary {
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 10px;
+}
+.genric-btn.primary:hover {
+    background-color: black;
+    font-weight: bolder;
+}

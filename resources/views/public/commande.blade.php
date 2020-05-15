@@ -34,13 +34,13 @@
 </div>
 </section>
 
-<section class="table-area section-padding">
+<section class="table-area section-padding"id="commande">
   <div class="container">
       <div class="row">
           <div class="col-lg-12">
               <div class="section-top2 text-center">
-                  <h3>Book <span>your</span> table</h3>
-                  <p><i>Beast kind form divide night above let moveth bearing darkness.</i></p>
+                  <h3>Veuillez nous<span> laisser </span>votre contact</h3>
+                  <p><span><i>Laisser votre commande et poulet chic vous contactera dans les plus brefs délais.</i></span></p>
               </div>
           </div>
       </div>
@@ -49,26 +49,35 @@
             <form class="form form-choix">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Votre nom</label>
-                  <input type="text" class="form-control">
+                  {{-- <input type="text" class="form-control"> --}}
+                  <div class="mt-10">
+                    <input type="text" name="first_name" placeholder="Ex : Konan" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ex : Konan'" required="" class="single-input-primary">
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Votre contact</label>
-                  <input type="text" class="form-control" >
+                    <label for="exampleInputPassword1">Votre contact</label>
+                    {{-- <input type="text" class="form-control" > --}}
+                    <div class="mt-10">
+                        <input type="text" name="first_name" placeholder="Ex : 01 02 03 04" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ex : 01 02 03 04'" required="" class="single-input-primary">
+                    </div>
                 </div>
-                <div>
+                <div >
                     <label for="">Choix de commande : </label>
-                    <div class="form-check form-check-inline">
+                    <div class="form-check">
                         <input class="form-check-input" type="radio" name="choix" id="inlineRadio1" value="Poulet en gros">
                         <label class="form-check-label" for="inlineRadio1">Poulet en gros</label>
-                      </div>
-                      <div class="form-check form-check-inline">
+                    </div>
+
+                    <div class="form-check">
                         <input class="form-check-input" type="radio" name="choix" id="inlineRadio2" value="Poulet de chair">
                         <label class="form-check-label" for="inlineRadio2">Poulet de chair</label>
-                      </div>
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="choix" id="inlineRadio2" value="Lapin" style=" width: 1em;">
+                    </div>
+
+                    <div class="form-check">
+                       <input class="form-check-input"  type="radio" id="confirm-radio" checked="" name="choix">
                         <label class="form-check-label" for="inlineRadio2"> Lapin</label>
                     </div>
+                    
                 </div>
                 <div class="table-btn text-center">
                     <button type="submit" class="template-btn template-btn2 mt-4">passez votre commande</button>

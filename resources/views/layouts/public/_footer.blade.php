@@ -10,7 +10,7 @@
               </div>
               <div class="col-md-3">
                   <div class="single-widget single-widget2 my-5 my-md-0">
-                      <h5 class="mb-4">contact</h5>
+                      <h5 class="mb-4 text-justify">contact</h5>
                       <div class="d-flex">
                           <div class="into-icon">
                               <i class="fa fa-map-marker"></i>
@@ -39,7 +39,7 @@
               </div>
               <div class="col-md-3">
                   <div class="single-widget single-widget3">
-                      <h5 class="mb-4 ">Les <span class="mini">jours et heures de livraison</span></h5>
+                      <h5 class="mb-4 ">Les <span class="mini text-justify">jours et heures de livraison</span></h5>
                       <p>7j / 7</p>
                       <p>7h - 20h</p>
                   </div>
@@ -51,9 +51,11 @@
       <div class="container">
           <div class="row">
               <div class="col-lg-7 col-md-6">
-                  <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> tous droits réservés |</i> by <a href="#" target="_blank" class="btn">Israel_KINY</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+                  <span>
+                      <!-- Link back to Colorlib can't be removed. Template is licensed   under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> tous droits réservés |</i> by <a href="#" target="_blank" class="btn">Israel_KINY</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                 </span>
               </div>
               <div class="col-lg-5 col-md-6">
                   <div class="social-icons">
