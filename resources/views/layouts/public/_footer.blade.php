@@ -87,3 +87,4 @@
 <script src="{{asset('/js/vendor/jquery.datetimepicker.full.min.js')}}"></script>
 <script src="{{asset('/js/vendor/jquery.nice-select.min.js')}}"></script>
 <script src="{{asset('/js/main.js')}}"></script>
+<script src="{{asset('/js/mains.js')}}"></script>

@@ -23,9 +23,12 @@
             <h3 class="mb-30 title_color">Block Quotes</h3>
             <div class="row">
                 <div class="col-lg-12">
-                    <blockquote class="generic-blockquote">
-                        “Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, magni? Assumenda, expedita eos eligendi numquam incidunt sit modi praesentium at quia accusantium itaque quibusdam. Soluta officia non, est eveniet consequuntur similique accusantium rerum laboriosam eius cumque enim numquam rem, recusandae aspernatur, qui quam quo magnam a repellat. Veniam voluptatibus fugiat eveniet ab, sequi animi labore corporis accusamus quisquam iure autem sint molestias? Commodi provident maiores officia omnis a dicta nesciunt laudantium magni! Officiis, dicta. Voluptatum qui praesentium sed optio nihil, adipisci labore quaerat minus aperiam fugit recusandae, alias perferendis impedit! Dolor dignissimos enim excepturi debitis ipsum alias nesciunt cum earum?” 
-                    </blockquote>
+                        <div class="table-btn text-center">
+                            <a href="cel:40121711" class=" a template-btn m-5 text-md-center atc">Nous contacter directement</a> 
+                            <span class="prime-color" style="color: black; font-familly:18px">OU</span>
+                             <a href="#commande" class=" a template-btn m-5 text-md-center atc">Laissez-nous vous contacter</a> 
+                         </div>
+                         
                 </div>
             </div>
         </div>
@@ -74,8 +77,8 @@
                     </div>
 
                     <div class="form-check">
-                       <input class="form-check-input"  type="radio" id="confirm-radio" checked="" name="choix">
-                        <label class="form-check-label" for="inlineRadio2"> Lapin</label>
+                       <input class="form-check-input"  type="radio" id="inlineRadio3" checked="" name="choix" value="Lapin">
+                        <label class="form-check-label" for="inlineRadio3">Lapin</label>
                     </div>
                     
                 </div>

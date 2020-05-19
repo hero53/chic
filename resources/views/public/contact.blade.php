@@ -5,7 +5,7 @@
 
   <section class="banner-area banner-area2 contact-bg text-center section">
       
-    <div class="container">
+    <div class="container ">
         <div class="row">
             <div class="col-lg-12">
                 <h1>Contactez <i class="prime-color">nous</i></h1>
@@ -22,7 +22,7 @@
   <p class="h2" style="color: black; font-weight: 500"> Ecrivez nous pour récévoire <i style="color: #ffb606">nos offres</i> </p>
 </div><br>
 
-  <section class="contact-form section-padding3">
+  <section class="contact-form section-padding3 revel">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 mb-5 mb-lg-0">

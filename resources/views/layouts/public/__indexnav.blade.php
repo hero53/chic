@@ -17,7 +17,7 @@
                 <ul>
                   <li class="active lien"><a href="{{route('public.index')}}">Accueil</a></li>
                   <li class="lien"><a href="{{route('public.commande')}}">Passer votre commande</a></li>
-                  <li class="lien"><a href="{{route('public.contact')}}">Contacts</a></li>
+                  <li class="lien"><a href="{{route('public.contact')}}">Contact</a></li>
                </ul>
               </div>
           </div>
